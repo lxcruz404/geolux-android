@@ -1,0 +1,55 @@
+{
+  "schema": "geolux.management.vectors/1",
+  "note": "Casos de prueba compartidos: Desktop (tests/core/test_management_vectors.py) y Android (ManagementVectorsTest) deben dar exactamente estos resultados.",
+  "decimal_text": [
+    {"in": "125000.50", "out": "125000.5"},
+    {"in": "0.10", "out": "0.1"},
+    {"in": "3", "out": "3"},
+    {"in": "1E+2", "out": "100"},
+    {"in": "007.250", "out": "7.25"},
+    {"in": "1,5", "error": true},
+    {"in": "-2", "error": true},
+    {"in": "0", "error": true},
+    {"in": "", "error": true},
+    {"in": "abc", "error": true}
+  ],
+  "code_key": [
+    {"in": " 2068-38 ", "out": "2068-38"},
+    {"in": "T-007", "out": "t-007"}
+  ],
+  "recurrence": [
+    {"rule": {"frequency": "weekly", "start": "2026-11-11", "weekdays": [1, 5]},
+     "from": "2026-11-01", "to": "2026-11-24",
+     "out": ["2026-11-13", "2026-11-16", "2026-11-20", "2026-11-23"]},
+    {"rule": {"frequency": "weekly", "start": "2026-11-11", "interval": 2},
+     "from": "2026-11-01", "to": "2026-12-31",
+     "out": ["2026-11-11", "2026-11-25", "2026-12-09", "2026-12-23"]},
+    {"rule": {"frequency": "monthly", "start": "2026-01-31", "count": 4},
+     "from": "2026-01-01", "to": "2026-12-31",
+     "out": ["2026-01-31", "2026-02-28", "2026-03-31", "2026-04-30"]},
+    {"rule": {"frequency": "monthly", "start": "2028-01-29", "interval": 1, "until": "2028-03-29"},
+     "from": "2028-01-01", "to": "2028-12-31",
+     "out": ["2028-01-29", "2028-02-29", "2028-03-29"]},
+    {"rule": {"frequency": "daily", "start": "2026-11-01", "interval": 3, "until": "2026-11-10"},
+     "from": "2026-11-01", "to": "2026-12-01",
+     "out": ["2026-11-01", "2026-11-04", "2026-11-07", "2026-11-10"]},
+    {"rule": {"frequency": "daily", "start": "2026-11-01", "weekdays": [1]},
+     "from": "2026-11-01", "to": "2026-11-05", "error": true}
+  ],
+  "finance_summary": [
+    {"currency": "COP",
+     "transactions": [
+       {"id": "t1", "type": "income", "direction": "in", "category": "livestock", "amount": "1200000", "currency": "COP"},
+       {"id": "t2", "type": "expense", "direction": "out", "category": "fences", "amount": "35000.25", "currency": "COP"},
+       {"id": "t3", "type": "worker_payment", "direction": "out", "category": "labor", "amount": "350000", "currency": "COP"},
+       {"id": "t4", "type": "expense", "direction": "out", "category": "fences", "amount": "0.75", "currency": "COP"},
+       {"id": "t5", "type": "transfer", "direction": "none", "category": "other", "amount": "999", "currency": "COP"},
+       {"id": "t6", "type": "expense", "direction": "out", "category": "maintenance", "amount": "20", "currency": "USD"},
+       {"id": "t7", "type": "expense", "direction": "out", "category": "veterinary", "amount": "50000", "currency": "COP"},
+       {"id": "t8", "type": "expense", "direction": "out", "category": "veterinary", "amount": "50000", "currency": "COP", "voids_transaction_id": "t7"}
+     ],
+     "out": {"income": "1200000", "expenses": "385001", "balance": "814999",
+             "by_category": {"fences": "35001", "labor": "350000"},
+             "worker_payments": "350000", "count": 5}}
+  ]
+}

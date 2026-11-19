@@ -1,0 +1,29 @@
+{
+  "finca-recortado-v1.glx": {
+    "originals": [
+      "023bba9c-6834-432f-8ea6-bfc46447c982",
+      "1993abd2-82f1-4aa8-8d2f-43c618957c8f"
+    ],
+    "cuts": {
+      "f1138b61-e5f6-492d-92ca-673045881036": "023bba9c-6834-432f-8ea6-bfc46447c982"
+    }
+  },
+  "finca-recortado-kind-crop.glx": {
+    "originals": [
+      "023bba9c-6834-432f-8ea6-bfc46447c982",
+      "1993abd2-82f1-4aa8-8d2f-43c618957c8f"
+    ],
+    "cuts": {
+      "f1138b61-e5f6-492d-92ca-673045881036": "023bba9c-6834-432f-8ea6-bfc46447c982"
+    }
+  },
+  "finca-recortado-variant.glx": {
+    "originals": [
+      "023bba9c-6834-432f-8ea6-bfc46447c982",
+      "1993abd2-82f1-4aa8-8d2f-43c618957c8f"
+    ],
+    "cuts": {
+      "f1138b61-e5f6-492d-92ca-673045881036": "023bba9c-6834-432f-8ea6-bfc46447c982"
+    }
+  }
+}

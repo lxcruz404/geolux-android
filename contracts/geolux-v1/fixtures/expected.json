@@ -1,0 +1,71 @@
+{
+  "package_id": "6c1f1d3e-4f0a-4b8e-9d55-2f6a0c9b7e10",
+  "format_version": 1,
+  "project": {
+    "id": "a1b2c3d4-0000-4000-8000-000000000001",
+    "name": "Finca Demo GeoLux",
+    "center": {
+      "lat": 6.301,
+      "lon": -70.1985
+    }
+  },
+  "feature_counts": {
+    "work_area": 1,
+    "zones": 2,
+    "elements": 3,
+    "lines": 2,
+    "missions": 1,
+    "mission_paths": 1
+  },
+  "feature_ids": {
+    "work_area": [
+      "wa-demo"
+    ],
+    "zones": [
+      "zone-demo-1",
+      "zone-demo-2"
+    ],
+    "elements": [
+      "el-demo-1",
+      "el-demo-2",
+      "el-demo-3"
+    ],
+    "lines": [
+      "line-demo-1",
+      "line-demo-2"
+    ],
+    "missions": [
+      "a1b2c3d4-0000-4000-8000-0000000000f1"
+    ],
+    "mission_paths": [
+      "a1b2c3d4-0000-4000-8000-0000000000f1"
+    ]
+  },
+  "checks": {
+    "zones.zone-demo-1.status": "active",
+    "zones.zone-demo-1.livestock_capacity": 40.0,
+    "zones.zone-demo-2.livestock_capacity": null,
+    "elements.el-demo-1.coordinates": [
+      -70.19895,
+      6.30105
+    ],
+    "elements.el-demo-1.type_label": "Tanque",
+    "lines.line-demo-2.category_label": "Tubería",
+    "missions.a1b2c3d4-0000-4000-8000-0000000000f1.waypoint_count": 4,
+    "missions.a1b2c3d4-0000-4000-8000-0000000000f1.battery_verdict": "viable",
+    "mission_paths.a1b2c3d4-0000-4000-8000-0000000000f1.coordinates_count": 4
+  },
+  "products": {
+    "ortho-demo": {
+      "kind": "orthomosaic",
+      "origin": "synthetic"
+    },
+    "model-demo": {
+      "kind": "model3d",
+      "origin": "synthetic"
+    }
+  },
+  "warnings": [
+    "synthetic_product"
+  ]
+}

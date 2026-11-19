@@ -1,0 +1,55 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "line-demo-1",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.2,
+            6.302
+          ],
+          [
+            -70.196,
+            6.302
+          ]
+        ]
+      },
+      "properties": {
+        "id": "line-demo-1",
+        "category": "fence",
+        "category_label": "Cerca",
+        "name": "Cerca norte",
+        "description": "",
+        "length_m": 442.6
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "line-demo-2",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.19895,
+            6.30105
+          ],
+          [
+            -70.1981,
+            6.3015
+          ]
+        ]
+      },
+      "properties": {
+        "id": "line-demo-2",
+        "category": "pipeline",
+        "category_label": "Tubería",
+        "name": "Tubería tanque-bebedero",
+        "description": "",
+        "length_m": 106.4
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "a1b2c3d4-0000-4000-8000-0000000000f1",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.1999,
+            6.3001
+          ],
+          [
+            -70.1971,
+            6.3001
+          ],
+          [
+            -70.1971,
+            6.3004
+          ],
+          [
+            -70.1999,
+            6.3004
+          ]
+        ]
+      },
+      "properties": {
+        "id": "a1b2c3d4-0000-4000-8000-0000000000f1",
+        "mission_id": "a1b2c3d4-0000-4000-8000-0000000000f1",
+        "altitude_m": 60.0,
+        "waypoint_count": 4
+      }
+    }
+  ]
+}

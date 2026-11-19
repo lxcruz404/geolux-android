@@ -1,0 +1,118 @@
+{
+  "schema": "geolux.management.catalogs/1",
+  "note": "Fuente única de los catálogos de gestión. Desktop (Python) y Android (Kotlin) comprueban en sus pruebas que sus constantes son exactamente estas. Las claves no se traducen ni se cambian; las etiquetas sí pueden mejorar.",
+  "activity_status": [
+    {"key": "pending", "label": "Pendiente"},
+    {"key": "in_progress", "label": "En proceso"},
+    {"key": "done", "label": "Completada"},
+    {"key": "cancelled", "label": "Cancelada"}
+  ],
+  "activity_priority": [
+    {"key": "low", "label": "Baja"},
+    {"key": "medium", "label": "Media"},
+    {"key": "high", "label": "Alta"},
+    {"key": "urgent", "label": "Urgente"}
+  ],
+  "activity_category": [
+    {"key": "fence_repair", "label": "Reparar cercas"},
+    {"key": "wire_purchase", "label": "Comprar alambre"},
+    {"key": "grass_cutting", "label": "Cortar pasto"},
+    {"key": "trough_cleaning", "label": "Limpiar bebederos"},
+    {"key": "tank_check", "label": "Revisar tanques"},
+    {"key": "pipe_repair", "label": "Reparar tuberías"},
+    {"key": "corral_maintenance", "label": "Mantenimiento de corrales"},
+    {"key": "vaccination", "label": "Vacunación"},
+    {"key": "treatment", "label": "Tratamiento veterinario"},
+    {"key": "weighing", "label": "Pesaje"},
+    {"key": "livestock_move", "label": "Traslado de ganado"},
+    {"key": "agriculture", "label": "Actividad agrícola"},
+    {"key": "purchase", "label": "Compra"},
+    {"key": "payment", "label": "Pago"},
+    {"key": "household", "label": "Actividad doméstica"},
+    {"key": "other", "label": "Otra"}
+  ],
+  "recurrence_frequency": [
+    {"key": "daily", "label": "Diaria"},
+    {"key": "weekly", "label": "Semanal"},
+    {"key": "monthly", "label": "Mensual"}
+  ],
+  "link_entity": [
+    {"key": "animal", "label": "Animal"},
+    {"key": "livestock_lot", "label": "Lote"},
+    {"key": "zone", "label": "Potrero"},
+    {"key": "map_line", "label": "Cerca o línea"},
+    {"key": "map_element", "label": "Elemento (tanque, bebedero…)"},
+    {"key": "work_area", "label": "Área de trabajo"},
+    {"key": "purchase_list", "label": "Lista de compra"},
+    {"key": "purchase_item", "label": "Artículo de compra"},
+    {"key": "worker", "label": "Trabajador"}
+  ],
+  "purchase_list_type": [
+    {"key": "workers_groceries", "label": "Mercado de trabajadores"},
+    {"key": "livestock_supplies", "label": "Insumos ganaderos"},
+    {"key": "medicines", "label": "Medicamentos"},
+    {"key": "construction", "label": "Materiales de construcción"},
+    {"key": "hardware", "label": "Ferretería"},
+    {"key": "agricultural_supplies", "label": "Insumos agrícolas"},
+    {"key": "tools", "label": "Herramientas"},
+    {"key": "general", "label": "Compras generales"}
+  ],
+  "purchase_list_status": [
+    {"key": "open", "label": "Abierta"},
+    {"key": "done", "label": "Completada"},
+    {"key": "cancelled", "label": "Cancelada"}
+  ],
+  "purchase_item_status": [
+    {"key": "pending", "label": "Pendiente"},
+    {"key": "bought", "label": "Comprado"},
+    {"key": "partial", "label": "Parcialmente comprado"},
+    {"key": "cancelled", "label": "Cancelado"}
+  ],
+  "unit": [
+    {"key": "unit", "label": "unidad"},
+    {"key": "kg", "label": "kg"},
+    {"key": "g", "label": "g"},
+    {"key": "lb", "label": "lb"},
+    {"key": "l", "label": "L"},
+    {"key": "ml", "label": "mL"},
+    {"key": "m", "label": "m"},
+    {"key": "box", "label": "caja"},
+    {"key": "roll", "label": "rollo"},
+    {"key": "bag", "label": "bulto"},
+    {"key": "dose", "label": "dosis"}
+  ],
+  "worker_status": [
+    {"key": "active", "label": "Activo"},
+    {"key": "inactive", "label": "Inactivo"}
+  ],
+  "transaction_type": [
+    {"key": "income", "label": "Ingreso", "directions": ["in"]},
+    {"key": "expense", "label": "Gasto", "directions": ["out"]},
+    {"key": "purchase", "label": "Compra", "directions": ["out"]},
+    {"key": "worker_payment", "label": "Pago a trabajador", "directions": ["out"]},
+    {"key": "worker_advance", "label": "Anticipo a trabajador", "directions": ["out"]},
+    {"key": "transfer", "label": "Transferencia", "directions": ["none"]},
+    {"key": "other", "label": "Otro movimiento", "directions": ["in", "out"]}
+  ],
+  "payment_method": [
+    {"key": "cash", "label": "Efectivo"},
+    {"key": "transfer", "label": "Transferencia"},
+    {"key": "card", "label": "Tarjeta"},
+    {"key": "credit", "label": "Crédito"},
+    {"key": "other", "label": "Otro"}
+  ],
+  "financial_category": [
+    {"key": "workers_food", "label": "Alimentación de trabajadores"},
+    {"key": "livestock", "label": "Ganadería"},
+    {"key": "veterinary", "label": "Veterinaria"},
+    {"key": "maintenance", "label": "Mantenimiento"},
+    {"key": "fences", "label": "Cercas"},
+    {"key": "infrastructure", "label": "Infraestructura"},
+    {"key": "agriculture", "label": "Agricultura"},
+    {"key": "transport", "label": "Transporte"},
+    {"key": "labor", "label": "Mano de obra"},
+    {"key": "services", "label": "Servicios"},
+    {"key": "general_purchases", "label": "Compras generales"},
+    {"key": "other", "label": "Otros"}
+  ]
+}

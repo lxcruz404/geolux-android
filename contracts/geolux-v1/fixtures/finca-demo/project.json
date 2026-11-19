@@ -1,0 +1,17 @@
+{
+  "id": "a1b2c3d4-0000-4000-8000-000000000001",
+  "name": "Finca Demo GeoLux",
+  "description": "Finca sintética para el contrato .geolux v1",
+  "location": "Vichada, Colombia",
+  "farm_id": null,
+  "center": {
+    "lat": 6.301,
+    "lon": -70.1985
+  },
+  "area": {
+    "value": 22.5,
+    "unit": "ha"
+  },
+  "created_at": "2026-10-01T12:00:00+00:00",
+  "updated_at": "2026-10-01T12:00:00+00:00"
+}

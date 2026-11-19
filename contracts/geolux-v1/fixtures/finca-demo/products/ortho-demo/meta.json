@@ -1,0 +1,18 @@
+{
+  "id": "ortho-demo",
+  "kind": "orthomosaic",
+  "mission_id": "a1b2c3d4-0000-4000-8000-0000000000f1",
+  "name": "Ortomosaico sintético",
+  "created_at": "2026-10-01T12:00:00+00:00",
+  "origin": "synthetic",
+  "crs": "EPSG:3857",
+  "bounds": [
+    -70.2026,
+    6.297,
+    -70.1971,
+    6.3025
+  ],
+  "files": [
+    "products/ortho-demo/ortho.mbtiles"
+  ]
+}

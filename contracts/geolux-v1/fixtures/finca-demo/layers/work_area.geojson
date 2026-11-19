@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "wa-demo",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.201,
+              6.299
+            ],
+            [
+              -70.196,
+              6.299
+            ],
+            [
+              -70.196,
+              6.303
+            ],
+            [
+              -70.201,
+              6.303
+            ],
+            [
+              -70.201,
+              6.299
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "wa-demo",
+        "area_m2": 245000.0,
+        "perimeter_m": 2020.5
+      }
+    }
+  ]
+}

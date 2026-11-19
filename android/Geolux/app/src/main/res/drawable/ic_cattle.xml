@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cabeza de res vista de frente: cuernos, orejas, testuz que se estrecha hacia el hocico,
+     ojos y línea del hocico. Es el icono «livestock» de GeoLux Desktop (src/geolux/ui/icons.py,
+     cuadrícula 24 × 24, trazo 1,75, extremos y uniones redondeados) pasado a VectorDrawable. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?android:attr/colorControlNormal">
+    <path
+        android:strokeColor="@android:color/white"
+        android:strokeWidth="1.75"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M8,8C6,8 4.6,6.8 4.2,4.8M16,8c2,0 3.4,-1.2 3.8,-3.2M8,10H4.6c0.4,1.6 1.7,2.4 3.6,2.2M16,10h3.4c-0.4,1.6 -1.7,2.4 -3.6,2.2M8,8h8l0.6,5.2a7,7 0,0 1,-0.4 2.6L15,19.2a2.2,2.2 0,0 1,-2 1.3h-2a2.2,2.2 0,0 1,-2 -1.3l-1.2,-3.4a7,7 0,0 1,-0.4 -2.6zM9.4,17.2h5.2" />
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M9.6,11.6a0.6,0.6 0,1 0,1.2 0a0.6,0.6 0,1 0,-1.2 0zM13.2,11.6a0.6,0.6 0,1 0,1.2 0a0.6,0.6 0,1 0,-1.2 0z" />
+</vector>

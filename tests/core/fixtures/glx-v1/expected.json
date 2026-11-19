@@ -1,0 +1,143 @@
+{
+  "package_id": "6c1f1d3e-4f0a-4b8e-9d55-2f6a0c9b7e20",
+  "project_id": "a1b2c3d4-0000-4000-8000-000000000001",
+  "format_version": 1,
+  "min_reader_version": 1,
+  "entries": {
+    "project.json": {
+      "kind": "project",
+      "role": null,
+      "compression": "deflate"
+    },
+    "layers/work_area.geojson": {
+      "kind": "layer",
+      "role": null,
+      "compression": "deflate"
+    },
+    "layers/zones.geojson": {
+      "kind": "layer",
+      "role": null,
+      "compression": "deflate"
+    },
+    "layers/elements.geojson": {
+      "kind": "layer",
+      "role": null,
+      "compression": "deflate"
+    },
+    "layers/lines.geojson": {
+      "kind": "layer",
+      "role": null,
+      "compression": "deflate"
+    },
+    "layers/missions.geojson": {
+      "kind": "layer",
+      "role": null,
+      "compression": "deflate"
+    },
+    "layers/mission_paths.geojson": {
+      "kind": "layer",
+      "role": null,
+      "compression": "deflate"
+    },
+    "missions/a1b2c3d4-0000-4000-8000-0000000000f1.json": {
+      "kind": "mission",
+      "role": null,
+      "compression": "deflate"
+    },
+    "jobs/a1b2c3d4-0000-4000-8000-0000000000a1.json": {
+      "kind": "job",
+      "role": null,
+      "compression": "deflate"
+    },
+    "tables/analisis-a1b2c3d4-areas.json": {
+      "kind": "table",
+      "role": null,
+      "compression": "deflate"
+    },
+    "products/a1b2c3d4-0000-4000-8000-0000000000b1/meta.json": {
+      "kind": "product_meta",
+      "role": null,
+      "compression": "deflate"
+    },
+    "products/a1b2c3d4-0000-4000-8000-0000000000b2/meta.json": {
+      "kind": "product_meta",
+      "role": null,
+      "compression": "deflate"
+    },
+    "products/a1b2c3d4-0000-4000-8000-0000000000b3/meta.json": {
+      "kind": "product_meta",
+      "role": null,
+      "compression": "deflate"
+    },
+    "products/a1b2c3d4-0000-4000-8000-0000000000b4/meta.json": {
+      "kind": "product_meta",
+      "role": null,
+      "compression": "deflate"
+    },
+    "products/a1b2c3d4-0000-4000-8000-0000000000b5/meta.json": {
+      "kind": "product_meta",
+      "role": null,
+      "compression": "deflate"
+    },
+    "photos/index.json": {
+      "kind": "photo_index",
+      "role": null,
+      "compression": "deflate"
+    },
+    "products/a1b2c3d4-0000-4000-8000-0000000000b1/ortho.mbtiles": {
+      "kind": "orthomosaic",
+      "role": "tiles",
+      "compression": "stored"
+    },
+    "products/a1b2c3d4-0000-4000-8000-0000000000b2/model_mobile.glb": {
+      "kind": "model3d",
+      "role": "model_mobile",
+      "compression": "stored"
+    },
+    "products/a1b2c3d4-0000-4000-8000-0000000000b2/model.glb": {
+      "kind": "model3d",
+      "role": "model",
+      "compression": "stored"
+    },
+    "products/a1b2c3d4-0000-4000-8000-0000000000b3/dsm.tif": {
+      "kind": "dsm",
+      "role": "source",
+      "compression": "stored"
+    },
+    "products/a1b2c3d4-0000-4000-8000-0000000000b4/cloud.laz": {
+      "kind": "point_cloud",
+      "role": "source",
+      "compression": "stored"
+    },
+    "products/a1b2c3d4-0000-4000-8000-0000000000b5/report.pdf": {
+      "kind": "report",
+      "role": "document",
+      "compression": "stored"
+    },
+    "photos/thumb/a1b2c3d4-0000-4000-8000-0000000000c1.jpg": {
+      "kind": "photo_thumb",
+      "role": null,
+      "compression": "stored"
+    },
+    "photos/preview/a1b2c3d4-0000-4000-8000-0000000000c1.jpg": {
+      "kind": "photo_preview",
+      "role": null,
+      "compression": "stored"
+    },
+    "photos/original/612c878614d17e6027e8fa1273e7f5413c38acc45cfc70eabdec13aa313f6b88.jpg": {
+      "kind": "photo_original",
+      "role": null,
+      "compression": "stored"
+    }
+  },
+  "products": {
+    "a1b2c3d4-0000-4000-8000-0000000000b1": "orthomosaic",
+    "a1b2c3d4-0000-4000-8000-0000000000b2": "model3d",
+    "a1b2c3d4-0000-4000-8000-0000000000b3": "dsm",
+    "a1b2c3d4-0000-4000-8000-0000000000b4": "point_cloud",
+    "a1b2c3d4-0000-4000-8000-0000000000b5": "report"
+  },
+  "mobile_model": "products/a1b2c3d4-0000-4000-8000-0000000000b2/model_mobile.glb",
+  "photos": 1,
+  "tables": 1
+}

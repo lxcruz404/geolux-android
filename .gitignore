@@ -1,0 +1,23 @@
+# Android / Gradle
+*.iml
+.gradle/
+.kotlin/
+build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.jks
+*.keystore
+
+# Editores
+.idea/
+.vscode/
+
+# Entorno / secretos
+.env
+.env.*
+
+# Sistema
+.DS_Store
+Thumbs.db

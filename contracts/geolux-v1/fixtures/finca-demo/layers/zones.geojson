@@ -1,0 +1,89 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "zone-demo-1",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.2,
+              6.3
+            ],
+            [
+              -70.197,
+              6.3
+            ],
+            [
+              -70.197,
+              6.302
+            ],
+            [
+              -70.2,
+              6.302
+            ],
+            [
+              -70.2,
+              6.3
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "zone-demo-1",
+        "name": "Potrero La Ceiba",
+        "description": "",
+        "status": "active",
+        "status_label": "Activo",
+        "color": "#2A9D8F",
+        "area_m2": 73500.0,
+        "perimeter_m": 1100.0,
+        "livestock_capacity": 40.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "zone-demo-2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.197,
+              6.3
+            ],
+            [
+              -70.196,
+              6.3
+            ],
+            [
+              -70.196,
+              6.302
+            ],
+            [
+              -70.197,
+              6.302
+            ],
+            [
+              -70.197,
+              6.3
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "zone-demo-2",
+        "name": "Potrero El Bajo",
+        "description": "",
+        "status": "resting",
+        "status_label": "En descanso",
+        "color": "#2A9D8F",
+        "area_m2": 73500.0,
+        "perimeter_m": 1100.0,
+        "livestock_capacity": null
+      }
+    }
+  ]
+}

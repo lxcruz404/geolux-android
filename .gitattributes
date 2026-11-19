@@ -1,0 +1,44 @@
+# Normalize line endings: LF in the repository, native on checkout.
+* text=auto
+
+# Source and text files
+*.py      text diff=python
+*.md      text diff=markdown
+*.toml    text
+*.cfg     text
+*.ini     text
+*.json    text
+*.yml     text
+*.yaml    text
+*.txt     text
+*.html    text diff=html
+*.css     text diff=css
+*.js      text
+*.svg     text
+.python-version text
+
+# Windows scripts keep CRLF
+*.bat     text eol=crlf
+*.cmd     text eol=crlf
+*.ps1     text eol=crlf
+
+# Shell scripts keep LF
+*.sh      text eol=lf
+
+# Binary files
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.ico     binary
+*.tif     binary
+*.tiff    binary
+*.sqlite3 binary
+*.db      binary
+*.mbtiles binary
+*.zip     binary
+*.laz     binary
+*.geolux  binary
+*.glx     binary
+*.glb     binary
+*.las     binary

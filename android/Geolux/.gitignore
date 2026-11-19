@@ -1,0 +1,19 @@
+*.iml
+.gradle
+/local.properties
+/.idea/
+.kotlin/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# El .gitignore raíz (Desktop) excluye carpetas con nombres comunes que aquí
+# son módulos o paquetes de Kotlin (:data, ui/projects…). Se vuelven a incluir.
+!data/
+!projects/
+!output/
+!logs/
+!env/
+!dist/

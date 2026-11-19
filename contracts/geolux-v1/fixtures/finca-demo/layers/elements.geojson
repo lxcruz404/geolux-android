@@ -1,0 +1,59 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "el-demo-1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.19895,
+          6.30105
+        ]
+      },
+      "properties": {
+        "id": "el-demo-1",
+        "element_type": "tank",
+        "type_label": "Tanque",
+        "name": "Tanque principal",
+        "description": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "el-demo-2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.1981,
+          6.3015
+        ]
+      },
+      "properties": {
+        "id": "el-demo-2",
+        "element_type": "trough",
+        "type_label": "Bebedero",
+        "name": "Bebedero 1",
+        "description": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "el-demo-3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.2005,
+          6.2995
+        ]
+      },
+      "properties": {
+        "id": "el-demo-3",
+        "element_type": "house",
+        "type_label": "Casa",
+        "name": "Casa",
+        "description": ""
+      }
+    }
+  ]
+}

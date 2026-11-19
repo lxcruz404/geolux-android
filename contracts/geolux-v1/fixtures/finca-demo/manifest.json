@@ -1,0 +1,135 @@
+{
+  "format": "geolux-package",
+  "format_version": 1,
+  "min_reader_version": 1,
+  "package_id": "6c1f1d3e-4f0a-4b8e-9d55-2f6a0c9b7e10",
+  "created_at": "2026-10-09T12:00:00+00:00",
+  "generator": {
+    "app": "GeoLux Desktop",
+    "app_version": "fixture",
+    "db_schema_version": 2
+  },
+  "project": {
+    "id": "a1b2c3d4-0000-4000-8000-000000000001",
+    "farm_id": null,
+    "name": "Finca Demo GeoLux"
+  },
+  "crs": "EPSG:4326",
+  "contents": [
+    {
+      "path": "project.json",
+      "kind": "project",
+      "schema": "geolux.project/1",
+      "required": true,
+      "size_bytes": 401,
+      "sha256": "baec6b90e09342b97ba42226dc30ecc0a75304696728ec87beed07feeab7c86b"
+    },
+    {
+      "path": "layers/work_area.geojson",
+      "kind": "layer",
+      "dataset": "work_area",
+      "schema": "geolux.work_area/1",
+      "geometry": "Polygon",
+      "feature_count": 1,
+      "required": true,
+      "size_bytes": 703,
+      "sha256": "86e3a7b484b79bb10e3d0c609f3ae8f64f7f3ab3e971799c2b839154e5c2df3f"
+    },
+    {
+      "path": "layers/zones.geojson",
+      "kind": "layer",
+      "dataset": "zones",
+      "schema": "geolux.zones/1",
+      "geometry": "Polygon",
+      "feature_count": 2,
+      "required": true,
+      "size_bytes": 1731,
+      "sha256": "4826f9ebabb6ed899f74a238cc71060b714b93775757a19b2caacae423f20bf5"
+    },
+    {
+      "path": "layers/elements.geojson",
+      "kind": "layer",
+      "dataset": "elements",
+      "schema": "geolux.elements/1",
+      "geometry": "Point",
+      "feature_count": 3,
+      "required": true,
+      "size_bytes": 1157,
+      "sha256": "f2b1827109dae96d60d7623c9207839d55e2c8dc088cd6947817351085717694"
+    },
+    {
+      "path": "layers/lines.geojson",
+      "kind": "layer",
+      "dataset": "lines",
+      "schema": "geolux.lines/1",
+      "geometry": "LineString",
+      "feature_count": 2,
+      "required": true,
+      "size_bytes": 1063,
+      "sha256": "c7a19cd4c9d97f71c5dc85402e3f58739213485a53dda3eefa4c5892fac3096c"
+    },
+    {
+      "path": "layers/missions.geojson",
+      "kind": "layer",
+      "dataset": "missions",
+      "schema": "geolux.missions/1",
+      "geometry": "Polygon",
+      "feature_count": 1,
+      "required": true,
+      "size_bytes": 1176,
+      "sha256": "7fbb6462f8d42690d113bb8d6c649eb971fde44dccf48276db87078686570b47"
+    },
+    {
+      "path": "layers/mission_paths.geojson",
+      "kind": "layer",
+      "dataset": "mission_paths",
+      "schema": "geolux.mission_paths/1",
+      "geometry": "LineString",
+      "feature_count": 1,
+      "required": true,
+      "size_bytes": 703,
+      "sha256": "9525cfe7db5ceb1fc80d6709f9fdf4c920dcad0c28a18dc7fec645885740c32a"
+    },
+    {
+      "path": "products/ortho-demo/meta.json",
+      "kind": "product_meta",
+      "schema": "geolux.product/1",
+      "product_id": "ortho-demo",
+      "required": false,
+      "size_bytes": 361,
+      "sha256": "a33ee5567126b37ba72ff26c4dc7d38e21745a128e11e98d1187455df1742cb0"
+    },
+    {
+      "path": "products/ortho-demo/ortho.mbtiles",
+      "kind": "orthomosaic",
+      "product_id": "ortho-demo",
+      "required": false,
+      "size_bytes": 16384,
+      "sha256": "765346b5475f697f06934836482432638105ea81cbf6146cf353a46ad223c7dd"
+    },
+    {
+      "path": "products/model-demo/meta.json",
+      "kind": "product_meta",
+      "schema": "geolux.product/1",
+      "product_id": "model-demo",
+      "required": false,
+      "size_bytes": 436,
+      "sha256": "b65e674cae699f7aac62c8f2f38193b7a16b374707cfbef1fdf708f55fadbd48"
+    },
+    {
+      "path": "products/model-demo/model.glb",
+      "kind": "model3d",
+      "product_id": "model-demo",
+      "required": false,
+      "size_bytes": 452,
+      "sha256": "0bbb9d8f327099f0b6c571e6a8bf76a80528a9cba5866cb7b02b6404f4c577fb"
+    }
+  ],
+  "excluded": [
+    "livestock",
+    "photos",
+    "datasets",
+    "offline_basemaps",
+    "water_connections"
+  ]
+}
